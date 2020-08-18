@@ -15,8 +15,9 @@ namespace ClassExtende17_08_2020
 
         public Werknemer(string naam,DateTime gebortedatum,string geslacht)
         {
+            DateTime dtGebortedatum = Convert.ToDateTime(gebortedatum);
             Naam = naam;
-           GeborteDatum = gebortedatum;
+            GeborteDatum = dtGebortedatum;
             Geslacht = geslacht;
         }
     }
