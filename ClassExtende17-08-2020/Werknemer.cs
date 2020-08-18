@@ -13,5 +13,11 @@ namespace ClassExtende17_08_2020
         private string Geslacht;
 
 
+        public Werknemer(string naam,DateTime gebortedatum,string geslacht)
+        {
+            Naam = naam;
+           GeborteDatum = gebortedatum;
+            Geslacht = geslacht;
+        }
     }
 }
